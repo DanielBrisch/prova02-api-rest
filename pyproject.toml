@@ -2,15 +2,15 @@
 name = "prova02-api-rest"
 version = "0.1.0"
 description = ""
-authors = ["Seu Nome <seuemail@email.com>"]
+authors = ["Daniel Brisch <danielbrisch159@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.104.1"
 uvicorn = "^0.24.0.post1"
-sqlmodel = "^0.0.12"
 psycopg2-binary = "^2.9.9"
+sqlmodel = "^0.0.12"
 
 
 [build-system]
